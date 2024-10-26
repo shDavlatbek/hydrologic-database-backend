@@ -7,7 +7,7 @@ from fastapi_users_db_sqlalchemy import SQLAlchemyUserDatabase
 from models.users import User
 from utils.unitofwork import UnitOfWork, get_uow
 
-from env import settings
+from config import settings
 
 SECRET = settings.jwt_secret
 
